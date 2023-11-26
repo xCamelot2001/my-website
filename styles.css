@@ -1,65 +1,106 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body{
-    margin: 5;
-    padding: 0;
-}
-section{
+    margin-left: 5px;
+    background-color: #000000;
     display: flex;
+    flex-direction: column;
 }
-div{
-    width: 100px;
-    margin: auto;
+h1{
+    color:crimson;
+    text-align: center;
+    font-family:cursive;
+    font-size: 3em;
+    font-variant:small-caps;
+    margin: 0.5px 0;
+    padding: 3px;
 }
-ul.img{
-    list-style-type: none;
-    max-width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 15px;
-}
-ul.nav{
+.nav{
     display: flex;
     margin: 0;
     padding: 0;
     list-style-type: none;
-    background-color: lemonchiffon;
-    padding: 20px;
+    background-color: rgba(146, 15, 15, 0.425);
+    padding: 30px;
 }
-li{
+.nav li{
     margin-right: 20px;
+    
 }
-a{
+.nav a{
+    color: whitesmoke;
     text-decoration: none;
-    color: rgb(113, 57, 135);
+}
+.footer a{
+    color: whitesmoke;
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
-    color: green;
+    color: crimson;
 }
-
-a:active{
-
+.main a:hover{
+    text-decoration: underline;
+    color: crimson;
 }
-img{
-    list-style-type: none;
-    max-width: 125%;
-    height: auto;
+footer{
+    color:whitesmoke;
+    text-align: center;
+    background-color: rgba(146, 15, 15, 0.425);
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    padding: 1em 0;
+    position: relative;
+}
+.form{
+    position: relative;
+    bottom: 50px;
+    margin: auto;
+    width: 200px;
+}
+.form input{
+    margin: auto;
+    width: 100%;
+}
+main {
+    flex: 1;
+}
+.form-div{
+    position: relative;
+    color: whitesmoke;
+    bottom: 100px;
+    font-family: cursive;
+    font-size: 12pt;
+    margin: auto;
+}
+.main{
+    margin: auto;
+    text-align: center;
+}
+.main div{
+    margin: 25px;
+    
+}
+.main a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.img{
+    margin: auto;
+    list-style: none;
+}
+.img li{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.img img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-}
-h1{
-    margin-left: 5%;
-}
-footer{
-    text-align: center;
-    background-color: DarkSalmon;
-    padding: 1px;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5 rem;  
+    width: 60%;
 }
